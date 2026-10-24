@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Для Вероники</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;overflow-x:hidden;font-family:Georgia,serif;color:#5d2035;background:linear-gradient(135deg,#ffdce7,#fff3f6 50%,#f9c8d8);display:flex;justify-content:center;align-items:center;padding:22px}.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden}.heart{position:absolute;color:#e88ca7;font-size:22px;animation:float 8s linear infinite;opacity:.55}@keyframes float{from{transform:translateY(110vh) rotate(0);opacity:0}20%{opacity:.65}to{transform:translateY(-15vh) rotate(360deg);opacity:0}}
+.card{width:min(680px,100%);text-align:center}.title{font-size:clamp(30px,7vw,58px);font-weight:bold;margin-bottom:20px;text-shadow:0 2px 8px #fff}.subtitle{font-size:18px;margin-bottom:28px}.envelope-wrap{perspective:1000px;cursor:pointer;margin:auto;width:min(420px,90vw);height:260px}.envelope{position:relative;width:100%;height:100%;background:#f28ca8;border-radius:5px;box-shadow:0 15px 35px #9b526c55;transition:.9s;transform-style:preserve-3d}.envelope:before{content:"";position:absolute;z-index:3;top:0;left:0;border-left:50% solid transparent;border-right:50% solid transparent;border-top:145px solid #e97898;transform-origin:top;transition:.9s}.envelope:after{content:"";position:absolute;inset:0;background:linear-gradient(145deg,transparent 49%,#d86787 50%),linear-gradient(35deg,transparent 49%,#d86787 50%);border-radius:5px}.seal{position:absolute;z-index:5;left:50%;top:52%;transform:translate(-50%,-50%);width:60px;height:60px;border-radius:50%;background:#b93761;color:#fff;display:grid;place-items:center;font-size:28px;box-shadow:0 3px 8px #70203988}.hint{margin-top:18px;font-size:16px}.letter{display:none;background:#fffaf5;padding:28px 25px;border-radius:8px;box-shadow:0 12px 35px #8d405655;text-align:left;animation:appear .8s ease}@keyframes appear{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}.letter h2{text-align:center;margin:0 0 18px;font-size:30px;color:#ae385c}.letter p{font-size:18px;line-height:1.65;margin:0;white-space:pre-line}.photo{display:block;width:100%;max-width:390px;margin:24px auto 0;border-radius:10px;box-shadow:0 6px 20px #732b4655}.sign{text-align:center;font-size:24px;margin-top:18px;color:#a63358}.open .envelope{transform:translateY(25px)}.open .envelope:before{transform:rotateX(180deg);z-index:1}.open .seal,.open .hint{display:none}.open .letter{display:block;margin-top:35px}.open .envelope-wrap{height:120px}.open .envelope{opacity:.35;transform:scale(.75) translateY(30px)}
+</style></head>
+<body>
+<div class="hearts"><span class="heart" style="left:8%;animation-delay:0s">♥</span><span class="heart" style="left:25%;animation-delay:2s">♡</span><span class="heart" style="left:48%;animation-delay:4s">♥</span><span class="heart" style="left:72%;animation-delay:1s">♡</span><span class="heart" style="left:90%;animation-delay:3s">♥</span></div>
+<main class="card" id="page"><div class="title">Для Вероники ❤️</div><div class="subtitle">У меня есть кое-что, что я хочу тебе сказать</div>
+<div class="envelope-wrap" onclick="openLetter()"><div class="envelope"><div class="seal">♥</div></div></div><div class="hint">Нажми на конверт</div>
+<section class="letter"><h2>Вероника</h2><p>Ник, не воспринимай мои слова как претензии. Просто мне через соцсети бывает тяжело показать себя до конца, я человек прямой и привык всё говорить как есть.
+
+Я не прошу чего-то сверхъестественного, мне просто важно, чтобы наше общение было честным с обеих сторон. Не знаю, каковы твои чувства ко мне, но мне очень хотелось бы видеть это не просто на словах, а на деле.
+
+Просто хочу сказать тебе, что ты реально заняла очень значимое место в моей жизни, и я боюсь тебя потерять. Честно говоря, меня самого накрывает от того, насколько сильно ты мне дорога. Я поймал себя на мыслях, что думаю только о тебе, и понял, что я тебя люблю — не просто как подругу, а по-настоящему.
+
+Я человек непростой, со своими загонами и ревностью, из-за чего мне иногда страшно делать шаги дальше. Но эти чувства сильнее всех страхов.</p><img class="photo" src="https://unlimbot.hb.ru-msk.vkcloud-storage.ru/uploads/21dbe14e8b1344ba9012e19c527dc8d0ce4c6d3fd57cff93.jpg" alt="Вероника"><div class="sign">❤️</div></section></main>
+<script>function openLetter(){document.getElementById('page').classList.add('open')}</script></body></html>
